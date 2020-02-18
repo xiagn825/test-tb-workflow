@@ -75,6 +75,7 @@ if (isAntDesignProPreview) {
 export default {
   plugins,
   hash: true,
+  publicPath: './',
   targets: {
     ie: 11,
   },
